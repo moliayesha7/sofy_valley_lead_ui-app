@@ -1,0 +1,1574 @@
+{
+    "code": 200,
+    "success": true,
+    "message": "Login successfully.",
+    "data": {
+        "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiZjUwZDAxMzUxYjU2ZGRhYzFjMjU1YmVjMDhmN2FjOGY0OGE2OWI3ZjJkMjU4YTg5NGVjNDY3MDhlNTg3MGYxOTU2MTU4Yjc5NzcyZjI5MTYiLCJpYXQiOjE2NzY3MTU2NzIuMjkzMjI5LCJuYmYiOjE2NzY3MTU2NzIuMjkzMjMzLCJleHAiOjE3MDgyNTE2NzIuMjgzODYzLCJzdWIiOiIxIiwic2NvcGVzIjpbImFkbWluIl19.GyYVgmgzHLK6LGHjnyO45vczyV9bPEkaG0PgKD13CQe73XQ8e8tvKtvtLF8nqkwJsLoUcbRrwcNMYxnORnrOJ3HZIPn5XiCOqs0HFbBxgt9ZjT0YEGBsy-7znKFPfQg8otIZB7Gnmfy40Zcgx5szZFHE6Bl5vXlQAK9aPlhMQx_8APmVbLUpXMIxKgwisazvFy06Bkpe3pGBN8wVFq0aopYk8l8k7Krfz7lqmFlIpQayHRNGUFxFqKxFc5vPabQQOUgRDbOQSTsNtpv2qYfeBysqpK7tClzqKPCCGUysQl6XGr1KAK6egWlLySdi49NuZ-GdQHs_7RfQ-ADu7ToikfetGiNWxw66bpT30cv7L5vIEE1l_GnMcjjO4Dlz8uQaYSFuskbIB0fkISnK3lVThIATsLOCo-H_iQYg0gxGIM2bOa_ONFl8ZrFXrNAR1JFnGlBxc-zyYPgsJSvtikye_ulKG3oH_RTC-Bf9CHAghdNcawpWJJzNur7k9ZG2GEgO6M__lBr4e9TBRGfgEanU2D3aBdKxApEPgUq9DSVoGfuco5IMSdpr5_431-ztZIKKOCfCzYGjZSGO57PirhZ485FYQbEQjuCDv2a75lOwWRlxsYq7uFnfrm0zPllw7hWZz_jGNxsjaH-sq4vVKSit67UDu4tFmDTN2E53s7b9QQM",
+        "role": "Admin",
+        "user": {
+            "id": 1,
+            "role_id": 1,
+            "name": "Admin",
+            "staff_crm_id": "64587",
+            "email": "admin@example.com",
+            "phone": "+8801644459849",
+            "image": "uploads/staff/profile/lHcrAs1676321155D5rxman2.png",
+            "status": "Active",
+            "address": "9835 Prosacco Mill\r\nEast Wallace, PA 62377",
+            "verify": "1",
+            "otp_code": null,
+            "company_name": null,
+            "company_address": null,
+            "expire_date": null,
+            "email_verified_at": "2023-02-13T20:14:40.000000Z",
+            "created_by": null,
+            "updated_by": 1,
+            "created_at": "2023-02-13T20:14:40.000000Z",
+            "updated_at": "2023-02-13T20:45:55.000000Z",
+            "deleted_at": null
+        },
+        "role_permissions": [
+            {
+                "module": "role",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "role",
+                        "operation": "list",
+                        "route": "api/admin/role/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "role",
+                        "operation": "create",
+                        "route": "api/admin/role/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "role",
+                        "operation": "show",
+                        "route": "api/admin/role/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "role",
+                        "operation": "update",
+                        "route": "api/admin/role/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "role",
+                        "operation": "delete",
+                        "route": "api/admin/role/delete",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "role",
+                        "operation": "module",
+                        "route": "api/admin/role/permission/module",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "department",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "department",
+                        "operation": "list",
+                        "route": "api/admin/department/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "department",
+                        "operation": "create",
+                        "route": "api/admin/department/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "department",
+                        "operation": "show",
+                        "route": "api/admin/department/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "department",
+                        "operation": "update",
+                        "route": "api/admin/department/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "department",
+                        "operation": "delete",
+                        "route": "api/admin/department/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "designation",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "designation",
+                        "operation": "list",
+                        "route": "api/admin/designation/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "designation",
+                        "operation": "create",
+                        "route": "api/admin/designation/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "designation",
+                        "operation": "show",
+                        "route": "api/admin/designation/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "designation",
+                        "operation": "update",
+                        "route": "api/admin/designation/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "designation",
+                        "operation": "delete",
+                        "route": "api/admin/designation/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "staff",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "staff",
+                        "operation": "list",
+                        "route": "api/admin/staff/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "staff",
+                        "operation": "create",
+                        "route": "api/admin/staff/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "staff",
+                        "operation": "show",
+                        "route": "api/admin/staff/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "staff",
+                        "operation": "update",
+                        "route": "api/admin/staff/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "staff",
+                        "operation": "role",
+                        "route": "api/admin/staff/role/permission",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "staff",
+                        "operation": "trashed list",
+                        "route": "api/admin/staff/trash/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "staff",
+                        "operation": "restore",
+                        "route": "api/admin/staff/restore",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "staff",
+                        "operation": "trash",
+                        "route": "api/admin/staff/trash",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "staff",
+                        "operation": "destroy",
+                        "route": "api/admin/staff/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "source",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "source",
+                        "operation": "list",
+                        "route": "api/admin/source/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "source",
+                        "operation": "create",
+                        "route": "api/admin/source/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "source",
+                        "operation": "show",
+                        "route": "api/admin/source/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "source",
+                        "operation": "update",
+                        "route": "api/admin/source/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "source",
+                        "operation": "delete",
+                        "route": "api/admin/source/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "country",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "country",
+                        "operation": "list",
+                        "route": "api/admin/country/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "country",
+                        "operation": "create",
+                        "route": "api/admin/country/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "country",
+                        "operation": "show",
+                        "route": "api/admin/country/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "country",
+                        "operation": "update",
+                        "route": "api/admin/country/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "country",
+                        "operation": "delete",
+                        "route": "api/admin/country/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "tag",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "tag",
+                        "operation": "list",
+                        "route": "api/admin/tag/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "tag",
+                        "operation": "create",
+                        "route": "api/admin/tag/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "tag",
+                        "operation": "show",
+                        "route": "api/admin/tag/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "tag",
+                        "operation": "update",
+                        "route": "api/admin/tag/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "tag",
+                        "operation": "delete",
+                        "route": "api/admin/tag/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "activity-log",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "activity-log",
+                        "operation": "list",
+                        "route": "api/admin/activity-log/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "activity-log",
+                        "operation": "create",
+                        "route": "api/admin/activity-log/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "activity-log",
+                        "operation": "show",
+                        "route": "api/admin/activity-log/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "activity-log",
+                        "operation": "update",
+                        "route": "api/admin/activity-log/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "activity-log",
+                        "operation": "delete",
+                        "route": "api/admin/activity-log/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "custom-field",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "custom-field",
+                        "operation": "",
+                        "route": "api/admin/custom-field/types",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "custom-field",
+                        "operation": "list",
+                        "route": "api/admin/custom-field/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "custom-field",
+                        "operation": "create",
+                        "route": "api/admin/custom-field/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "custom-field",
+                        "operation": "show",
+                        "route": "api/admin/custom-field/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "custom-field",
+                        "operation": "update",
+                        "route": "api/admin/custom-field/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "custom-field",
+                        "operation": "delete",
+                        "route": "api/admin/custom-field/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "attachment",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "attachment",
+                        "operation": "list",
+                        "route": "api/admin/attachment/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "attachment",
+                        "operation": "create",
+                        "route": "api/admin/attachment/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "attachment",
+                        "operation": "show",
+                        "route": "api/admin/attachment/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "attachment",
+                        "operation": "update",
+                        "route": "api/admin/attachment/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "attachment",
+                        "operation": "delete",
+                        "route": "api/admin/attachment/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "task",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "task",
+                        "operation": "list(global)",
+                        "route": "api/admin/task/list/global",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "task",
+                        "operation": "list(own)",
+                        "route": "api/admin/task/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "task",
+                        "operation": "create",
+                        "route": "api/admin/task/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "task",
+                        "operation": "show",
+                        "route": "api/admin/task/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "task",
+                        "operation": "update",
+                        "route": "api/admin/task/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "task",
+                        "operation": "delete",
+                        "route": "api/admin/task/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "course",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "course",
+                        "operation": "list",
+                        "route": "api/admin/course/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "course",
+                        "operation": "create",
+                        "route": "api/admin/course/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "course",
+                        "operation": "show",
+                        "route": "api/admin/course/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "course",
+                        "operation": "update",
+                        "route": "api/admin/course/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "course",
+                        "operation": "delete",
+                        "route": "api/admin/course/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "school",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "school",
+                        "operation": "list",
+                        "route": "api/admin/school/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "school",
+                        "operation": "create",
+                        "route": "api/admin/school/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "school",
+                        "operation": "show",
+                        "route": "api/admin/school/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "school",
+                        "operation": "update",
+                        "route": "api/admin/school/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "school",
+                        "operation": "delete",
+                        "route": "api/admin/school/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "college",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "college",
+                        "operation": "list",
+                        "route": "api/admin/college/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "college",
+                        "operation": "create",
+                        "route": "api/admin/college/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "college",
+                        "operation": "show",
+                        "route": "api/admin/college/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "college",
+                        "operation": "update",
+                        "route": "api/admin/college/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "college",
+                        "operation": "delete",
+                        "route": "api/admin/college/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "university",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "university",
+                        "operation": "list",
+                        "route": "api/admin/university/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "university",
+                        "operation": "create",
+                        "route": "api/admin/university/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "university",
+                        "operation": "show",
+                        "route": "api/admin/university/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "university",
+                        "operation": "update",
+                        "route": "api/admin/university/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "university",
+                        "operation": "delete",
+                        "route": "api/admin/university/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "lead-status",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead-status",
+                        "operation": "list",
+                        "route": "api/admin/lead-status/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead-status",
+                        "operation": "create",
+                        "route": "api/admin/lead-status/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead-status",
+                        "operation": "show",
+                        "route": "api/admin/lead-status/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead-status",
+                        "operation": "update",
+                        "route": "api/admin/lead-status/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead-status",
+                        "operation": "delete",
+                        "route": "api/admin/lead-status/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "note",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "note",
+                        "operation": "list",
+                        "route": "api/admin/note/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "note",
+                        "operation": "create",
+                        "route": "api/admin/note/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "note",
+                        "operation": "show",
+                        "route": "api/admin/note/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "note",
+                        "operation": "update",
+                        "route": "api/admin/note/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "note",
+                        "operation": "delete",
+                        "route": "api/admin/note/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "institute",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "institute",
+                        "operation": "list",
+                        "route": "api/admin/institute/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "institute",
+                        "operation": "create",
+                        "route": "api/admin/institute/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "institute",
+                        "operation": "show",
+                        "route": "api/admin/institute/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "institute",
+                        "operation": "update",
+                        "route": "api/admin/institute/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "institute",
+                        "operation": "delete",
+                        "route": "api/admin/institute/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "subject",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "subject",
+                        "operation": "list",
+                        "route": "api/admin/subject/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "subject",
+                        "operation": "create",
+                        "route": "api/admin/subject/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "subject",
+                        "operation": "show",
+                        "route": "api/admin/subject/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "subject",
+                        "operation": "update",
+                        "route": "api/admin/subject/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "subject",
+                        "operation": "delete",
+                        "route": "api/admin/subject/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "lead",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "list(global)",
+                        "route": "api/admin/lead/list/global",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "list(own)",
+                        "route": "api/admin/lead/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "create",
+                        "route": "api/admin/lead/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "show",
+                        "route": "api/admin/lead/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "task",
+                        "route": "api/admin/lead/task",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "note",
+                        "route": "api/admin/lead/note",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "update",
+                        "route": "api/admin/lead/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "change status",
+                        "route": "api/admin/lead/change/status",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "activity",
+                        "route": "api/admin/lead/activity",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "attachment",
+                        "route": "api/admin/lead/attachment",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "attachment upload",
+                        "route": "api/admin/lead/attachment/upload",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "convert customer",
+                        "route": "api/admin/lead/convert/customer",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "sample",
+                        "route": "api/admin/lead/sample",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "import",
+                        "route": "api/admin/lead/import",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "export",
+                        "route": "api/admin/lead/export",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "summery",
+                        "route": "api/admin/lead/summery",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "bulk action",
+                        "route": "api/admin/lead/bulk/action",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "trash list(global)",
+                        "route": "api/admin/lead/trash/list/global",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "trash list(own)",
+                        "route": "api/admin/lead/trash/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "restore",
+                        "route": "api/admin/lead/restore",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "trash",
+                        "route": "api/admin/lead/trash",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "lead",
+                        "operation": "delete",
+                        "route": "api/admin/lead/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "intake",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "intake",
+                        "operation": "list",
+                        "route": "api/admin/intake/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "intake",
+                        "operation": "create",
+                        "route": "api/admin/intake/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "intake",
+                        "operation": "update",
+                        "route": "api/admin/intake/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "intake",
+                        "operation": "show",
+                        "route": "api/admin/intake/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "intake",
+                        "operation": "destroy",
+                        "route": "api/admin/intake/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "fee",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "fee",
+                        "operation": "list",
+                        "route": "api/admin/fee/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "fee",
+                        "operation": "create",
+                        "route": "api/admin/fee/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "fee",
+                        "operation": "update",
+                        "route": "api/admin/fee/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "fee",
+                        "operation": "show",
+                        "route": "api/admin/fee/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "fee",
+                        "operation": "destroy",
+                        "route": "api/admin/fee/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "customer",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "customer",
+                        "operation": "list(global)",
+                        "route": "api/admin/customer/list/global",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "customer",
+                        "operation": "list(own)",
+                        "route": "api/admin/customer/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "customer",
+                        "operation": "create",
+                        "route": "api/admin/customer/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "customer",
+                        "operation": "update",
+                        "route": "api/admin/customer/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "customer",
+                        "operation": "show",
+                        "route": "api/admin/customer/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "customer",
+                        "operation": "billing shipping",
+                        "route": "api/admin/customer/billing-shipping",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "customer",
+                        "operation": "trash list(global)",
+                        "route": "api/admin/customer/trash/list/global",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "customer",
+                        "operation": "trash list(own)",
+                        "route": "api/admin/customer/trash/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "customer",
+                        "operation": "restore",
+                        "route": "api/admin/customer/restore",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "customer",
+                        "operation": "trash",
+                        "route": "api/admin/customer/trash",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "customer",
+                        "operation": "destroy",
+                        "route": "api/admin/customer/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "admission-status",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "admission-status",
+                        "operation": "list",
+                        "route": "api/admin/admission-status/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "admission-status",
+                        "operation": "create",
+                        "route": "api/admin/admission-status/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "admission-status",
+                        "operation": "update",
+                        "route": "api/admin/admission-status/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "admission-status",
+                        "operation": "show",
+                        "route": "api/admin/admission-status/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "admission-status",
+                        "operation": "destroy",
+                        "route": "api/admin/admission-status/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "project-status",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-status",
+                        "operation": "list",
+                        "route": "api/admin/project-status/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-status",
+                        "operation": "create",
+                        "route": "api/admin/project-status/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-status",
+                        "operation": "update",
+                        "route": "api/admin/project-status/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-status",
+                        "operation": "show",
+                        "route": "api/admin/project-status/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-status",
+                        "operation": "destroy",
+                        "route": "api/admin/project-status/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "project-customer-status",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer-status",
+                        "operation": "list",
+                        "route": "api/admin/project-customer-status/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer-status",
+                        "operation": "create",
+                        "route": "api/admin/project-customer-status/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer-status",
+                        "operation": "update",
+                        "route": "api/admin/project-customer-status/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer-status",
+                        "operation": "show",
+                        "route": "api/admin/project-customer-status/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer-status",
+                        "operation": "destroy",
+                        "route": "api/admin/project-customer-status/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "project",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project",
+                        "operation": "list",
+                        "route": "api/admin/project/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project",
+                        "operation": "create",
+                        "route": "api/admin/project/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project",
+                        "operation": "update",
+                        "route": "api/admin/project/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project",
+                        "operation": "show",
+                        "route": "api/admin/project/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project",
+                        "operation": "destroy",
+                        "route": "api/admin/project/delete",
+                        "is_permit": 0
+                    }
+                ]
+            },
+            {
+                "module": "project-customer",
+                "permission": [
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer",
+                        "operation": "list(global)",
+                        "route": "api/admin/project-customer/list/global",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer",
+                        "operation": "list(own)",
+                        "route": "api/admin/project-customer/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer",
+                        "operation": "create",
+                        "route": "api/admin/project-customer/create",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer",
+                        "operation": "update",
+                        "route": "api/admin/project-customer/update",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer",
+                        "operation": "show",
+                        "route": "api/admin/project-customer/show",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer",
+                        "operation": "trash list(global)",
+                        "route": "api/admin/project-customer/trash/list/global",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer",
+                        "operation": "trash list(own)",
+                        "route": "api/admin/project-customer/trash/list",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer",
+                        "operation": "restore",
+                        "route": "api/admin/project-customer/restore",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer",
+                        "operation": "trash",
+                        "route": "api/admin/project-customer/trash",
+                        "is_permit": 0
+                    },
+                    {
+                        "role_id": 1,
+                        "user_id": 1,
+                        "module": "project-customer",
+                        "operation": "destroy",
+                        "route": "api/admin/project-customer/delete",
+                        "is_permit": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "errors": []
+}

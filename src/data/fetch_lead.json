@@ -1,0 +1,913 @@
+{
+    "code": 200,
+    "success": true,
+    "message": "Leads fetched successfully",
+    "data": {
+        "current_page": 1,
+        "data": [
+            {
+                "followup_date": null,
+                "id": 1459,
+                "lead_status_id": 2,
+                "source_id": 1,
+                "country_id": 79,
+                "name": "Jasper Schmitt",
+                "description": "Libero repellendus omnis omnis unde laborum. Eum laborum et similique nobis mollitia. Dolores consectetur quis ullam minima velit tenetur.",
+                "email": "mitchell.eula@armstrong.info",
+                "phone": "+17329557942",
+                "position": "Urban Planner",
+                "address": "2337 Bruen Junction\nSouth Veronaberg, NV 44221-9237",
+                "city": "Leschfurt",
+                "state": "Nebraska",
+                "contacted_date": "1978-08-08",
+                "educations": [],
+                "created_by": 6,
+                "updated_by": 2,
+                "created_at": "2023-02-13T20:33:10.000000Z",
+                "updated_at": "2023-02-13T20:33:10.000000Z",
+                "deleted_at": null,
+                "created_by_name": null,
+                "updated_by_name": null,
+                "lead_assignees": [
+                    {
+                        "id": 1677,
+                        "lead_id": 1459,
+                        "user_id": 1,
+                        "name": "Admin",
+                        "deleted_at": null,
+                        "email": "admin@example.com",
+                        "phone": "+8801644459849",
+                        "staff_crm_id": "64587",
+                        "image": "uploads/staff/profile/lHcrAs1676321155D5rxman2.png"
+                    }
+                ],
+                "lead_notes": [],
+                "lead_tags": [],
+                "lead_courses": [],
+                "lead_status": {
+                    "id": 2,
+                    "name": "New",
+                    "color": "#00d640",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-16T04:29:55.000000Z",
+                    "is_final": 0
+                },
+                "country": {
+                    "id": 79,
+                    "name": "Gambia",
+                    "code": "GM",
+                    "short_name": "GM",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-13T20:14:41.000000Z"
+                },
+                "source": {
+                    "id": 1,
+                    "name": "Facebook",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-15T20:32:09.000000Z"
+                },
+                "lead_s_s_c": null,
+                "lead_h_s_c": null,
+                "lead_o_level": null,
+                "lead_a_level": null,
+                "lead_bachelor": null,
+                "lead_master": null,
+                "lead_jobs": [],
+                "lead_preferred_countries": [],
+                "lead_custom_field": []
+            },
+            {
+                "followup_date": null,
+                "id": 1458,
+                "lead_status_id": 2,
+                "source_id": 5,
+                "country_id": 147,
+                "name": "Raphael Simonis",
+                "description": "Nihil illo quia tempora debitis aut vel nobis ex. Vel sunt non odit veritatis. Debitis voluptas eos ducimus voluptas iusto quidem.",
+                "email": "freida.feeney@heaney.com",
+                "phone": "1-520-524-9941",
+                "position": "Social Service Specialists",
+                "address": "55070 Alexandrine Brooks Apt. 883\nDinafort, MN 73479",
+                "city": "New Gerald",
+                "state": "Florida",
+                "contacted_date": "1985-01-07",
+                "educations": [],
+                "created_by": 8,
+                "updated_by": 4,
+                "created_at": "2023-02-13T20:33:10.000000Z",
+                "updated_at": "2023-02-13T20:33:10.000000Z",
+                "deleted_at": null,
+                "created_by_name": null,
+                "updated_by_name": null,
+                "lead_assignees": [
+                    {
+                        "id": 1909,
+                        "lead_id": 1458,
+                        "user_id": 11,
+                        "name": "Staff User",
+                        "deleted_at": null,
+                        "email": "staff@example.com",
+                        "phone": "+880164445984",
+                        "staff_crm_id": "41621",
+                        "image": "uploads/staff/profile/VsW8Ot1676321249Jv6Hman.png"
+                    },
+                    {
+                        "id": 1910,
+                        "lead_id": 1458,
+                        "user_id": 12,
+                        "name": "Tushar Khan",
+                        "deleted_at": null,
+                        "email": "tushar@staff.com",
+                        "phone": "1234567890",
+                        "staff_crm_id": null,
+                        "image": "uploads/staff/profile/zvxeg31676548554ITOaman.png"
+                    }
+                ],
+                "lead_notes": [],
+                "lead_tags": [],
+                "lead_courses": [],
+                "lead_status": {
+                    "id": 2,
+                    "name": "New",
+                    "color": "#00d640",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-16T04:29:55.000000Z",
+                    "is_final": 0
+                },
+                "country": {
+                    "id": 147,
+                    "name": "Montserrat",
+                    "code": "MS",
+                    "short_name": "MS",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-13T20:14:41.000000Z"
+                },
+                "source": {
+                    "id": 5,
+                    "name": "Event",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-15T20:32:17.000000Z"
+                },
+                "lead_s_s_c": null,
+                "lead_h_s_c": null,
+                "lead_o_level": null,
+                "lead_a_level": null,
+                "lead_bachelor": null,
+                "lead_master": null,
+                "lead_jobs": [
+                    {
+                        "id": 445,
+                        "lead_id": 1458,
+                        "title": "Jeweler",
+                        "description": "Dolor est nesciunt eligendi consectetur perspiciatis sint cumque. Quo enim ipsa eaque eum cumque deserunt.",
+                        "duration": "5 years",
+                        "join_date": "1977-10-28",
+                        "end_date": "1996-04-12",
+                        "company_name": "Weissnat PLC",
+                        "company_address": "8083 Declan Mills Apt. 248\nSouth Demetrisport, MN 76690-6605",
+                        "created_at": "2023-02-13T20:33:42.000000Z",
+                        "updated_at": "2023-02-13T20:33:42.000000Z"
+                    }
+                ],
+                "lead_preferred_countries": [],
+                "lead_custom_field": []
+            },
+            {
+                "followup_date": null,
+                "id": 1457,
+                "lead_status_id": 2,
+                "source_id": 5,
+                "country_id": 23,
+                "name": "Emmanuelle Olson",
+                "description": "Est atque sed quaerat commodi et facilis sapiente. Provident sit occaecati nesciunt cupiditate quaerat repellat. Aperiam qui consequatur quisquam odio quia excepturi aut.",
+                "email": "laurie48@hotmail.com",
+                "phone": "1-615-997-4699",
+                "position": "Architecture Teacher",
+                "address": "54599 Terry Gardens Suite 502\nEast Camylle, TN 25328-7826",
+                "city": "Huelsmouth",
+                "state": "Montana",
+                "contacted_date": "1979-04-26",
+                "educations": [],
+                "created_by": 1,
+                "updated_by": 4,
+                "created_at": "2023-02-13T20:33:10.000000Z",
+                "updated_at": "2023-02-13T20:33:10.000000Z",
+                "deleted_at": null,
+                "created_by_name": "Admin",
+                "updated_by_name": null,
+                "lead_assignees": [
+                    {
+                        "id": 876,
+                        "lead_id": 1457,
+                        "user_id": 1,
+                        "name": "Admin",
+                        "deleted_at": null,
+                        "email": "admin@example.com",
+                        "phone": "+8801644459849",
+                        "staff_crm_id": "64587",
+                        "image": "uploads/staff/profile/lHcrAs1676321155D5rxman2.png"
+                    }
+                ],
+                "lead_notes": [],
+                "lead_tags": [],
+                "lead_courses": [],
+                "lead_status": {
+                    "id": 2,
+                    "name": "New",
+                    "color": "#00d640",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-16T04:29:55.000000Z",
+                    "is_final": 0
+                },
+                "country": {
+                    "id": 23,
+                    "name": "Belize",
+                    "code": "BZ",
+                    "short_name": "BZ",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-13T20:14:41.000000Z"
+                },
+                "source": {
+                    "id": 5,
+                    "name": "Event",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-15T20:32:17.000000Z"
+                },
+                "lead_s_s_c": null,
+                "lead_h_s_c": null,
+                "lead_o_level": null,
+                "lead_a_level": null,
+                "lead_bachelor": null,
+                "lead_master": null,
+                "lead_jobs": [],
+                "lead_preferred_countries": [],
+                "lead_custom_field": []
+            },
+            {
+                "followup_date": null,
+                "id": 1456,
+                "lead_status_id": 1,
+                "source_id": 1,
+                "country_id": 157,
+                "name": "Stella Wiegand DDS",
+                "description": "Rerum rerum nulla et mollitia quod voluptas. Nihil aut nostrum molestiae non.",
+                "email": "ubrown@dooley.com",
+                "phone": "228-765-6645",
+                "position": "Shear Machine Set-Up Operator",
+                "address": "81972 Stefanie Pines Apt. 765\nNorth Dexter, MI 78018",
+                "city": "Bartolettistad",
+                "state": "North Dakota",
+                "contacted_date": "1979-12-17",
+                "educations": [],
+                "created_by": 7,
+                "updated_by": 11,
+                "created_at": "2023-02-13T20:33:10.000000Z",
+                "updated_at": "2023-02-13T20:33:10.000000Z",
+                "deleted_at": null,
+                "created_by_name": null,
+                "updated_by_name": "Staff User",
+                "lead_assignees": [
+                    {
+                        "id": 890,
+                        "lead_id": 1456,
+                        "user_id": 1,
+                        "name": "Admin",
+                        "deleted_at": null,
+                        "email": "admin@example.com",
+                        "phone": "+8801644459849",
+                        "staff_crm_id": "64587",
+                        "image": "uploads/staff/profile/lHcrAs1676321155D5rxman2.png"
+                    }
+                ],
+                "lead_notes": [],
+                "lead_tags": [],
+                "lead_courses": [],
+                "lead_status": {
+                    "id": 1,
+                    "name": "Customer",
+                    "color": "#008059",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-16T13:13:08.000000Z",
+                    "is_final": 1
+                },
+                "country": {
+                    "id": 157,
+                    "name": "New Zealand",
+                    "code": "NZ",
+                    "short_name": "NZ",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-13T20:14:41.000000Z"
+                },
+                "source": {
+                    "id": 1,
+                    "name": "Facebook",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-15T20:32:09.000000Z"
+                },
+                "lead_s_s_c": null,
+                "lead_h_s_c": null,
+                "lead_o_level": null,
+                "lead_a_level": null,
+                "lead_bachelor": null,
+                "lead_master": null,
+                "lead_jobs": [],
+                "lead_preferred_countries": [],
+                "lead_custom_field": []
+            },
+            {
+                "followup_date": null,
+                "id": 1455,
+                "lead_status_id": 4,
+                "source_id": 2,
+                "country_id": 215,
+                "name": "Donnie Rodriguez",
+                "description": "Est saepe est quis velit. Voluptas error eos et dolores enim ipsa. Enim et enim et deleniti.",
+                "email": "cristina61@gmail.com",
+                "phone": "505-265-6733",
+                "position": "Logging Worker",
+                "address": "3591 Jacques Trail Suite 588\nRunolfssonstad, CA 01596",
+                "city": "East Devante",
+                "state": "Missouri",
+                "contacted_date": "1971-01-23",
+                "educations": [],
+                "created_by": 7,
+                "updated_by": 6,
+                "created_at": "2023-02-13T20:33:10.000000Z",
+                "updated_at": "2023-02-13T20:33:10.000000Z",
+                "deleted_at": null,
+                "created_by_name": null,
+                "updated_by_name": null,
+                "lead_assignees": [
+                    {
+                        "id": 1292,
+                        "lead_id": 1455,
+                        "user_id": 1,
+                        "name": "Admin",
+                        "deleted_at": null,
+                        "email": "admin@example.com",
+                        "phone": "+8801644459849",
+                        "staff_crm_id": "64587",
+                        "image": "uploads/staff/profile/lHcrAs1676321155D5rxman2.png"
+                    }
+                ],
+                "lead_notes": [],
+                "lead_tags": [],
+                "lead_courses": [],
+                "lead_status": {
+                    "id": 4,
+                    "name": "Potential",
+                    "color": "#c2f410",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-16T04:30:23.000000Z",
+                    "is_final": 0
+                },
+                "country": {
+                    "id": 215,
+                    "name": "Thailand",
+                    "code": "TH",
+                    "short_name": "TH",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-13T20:14:41.000000Z"
+                },
+                "source": {
+                    "id": 2,
+                    "name": "Youtube",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-15T20:31:53.000000Z"
+                },
+                "lead_s_s_c": null,
+                "lead_h_s_c": null,
+                "lead_o_level": null,
+                "lead_a_level": null,
+                "lead_bachelor": null,
+                "lead_master": null,
+                "lead_jobs": [],
+                "lead_preferred_countries": [],
+                "lead_custom_field": []
+            },
+            {
+                "followup_date": null,
+                "id": 1454,
+                "lead_status_id": 1,
+                "source_id": 5,
+                "country_id": 4,
+                "name": "Elenora Corwin",
+                "description": "Tenetur nihil maxime modi consequuntur. Animi et ut exercitationem. Qui qui quo vel nihil quo quo. Quia enim consequatur totam consequuntur aut earum.",
+                "email": "winston.rohan@kerluke.com",
+                "phone": "682.970.4648",
+                "position": "Security Guard",
+                "address": "4873 Jaleel Cliff\nPort Samanta, DC 89128",
+                "city": "Janickfort",
+                "state": "Delaware",
+                "contacted_date": "2006-11-09",
+                "educations": [],
+                "created_by": 10,
+                "updated_by": 9,
+                "created_at": "2023-02-13T20:33:10.000000Z",
+                "updated_at": "2023-02-13T20:33:10.000000Z",
+                "deleted_at": null,
+                "created_by_name": "Geoffrey Friesen",
+                "updated_by_name": null,
+                "lead_assignees": [
+                    {
+                        "id": 1911,
+                        "lead_id": 1454,
+                        "user_id": 11,
+                        "name": "Staff User",
+                        "deleted_at": null,
+                        "email": "staff@example.com",
+                        "phone": "+880164445984",
+                        "staff_crm_id": "41621",
+                        "image": "uploads/staff/profile/VsW8Ot1676321249Jv6Hman.png"
+                    },
+                    {
+                        "id": 1912,
+                        "lead_id": 1454,
+                        "user_id": 12,
+                        "name": "Tushar Khan",
+                        "deleted_at": null,
+                        "email": "tushar@staff.com",
+                        "phone": "1234567890",
+                        "staff_crm_id": null,
+                        "image": "uploads/staff/profile/zvxeg31676548554ITOaman.png"
+                    }
+                ],
+                "lead_notes": [],
+                "lead_tags": [],
+                "lead_courses": [],
+                "lead_status": {
+                    "id": 1,
+                    "name": "Customer",
+                    "color": "#008059",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-16T13:13:08.000000Z",
+                    "is_final": 1
+                },
+                "country": {
+                    "id": 4,
+                    "name": "Algeria",
+                    "code": "DZ",
+                    "short_name": "DZ",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-13T20:14:41.000000Z"
+                },
+                "source": {
+                    "id": 5,
+                    "name": "Event",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-15T20:32:17.000000Z"
+                },
+                "lead_s_s_c": null,
+                "lead_h_s_c": null,
+                "lead_o_level": null,
+                "lead_a_level": null,
+                "lead_bachelor": null,
+                "lead_master": null,
+                "lead_jobs": [
+                    {
+                        "id": 589,
+                        "lead_id": 1454,
+                        "title": "Statistician",
+                        "description": "Autem sunt non dignissimos explicabo aut reprehenderit ea. Ut animi aut ut reiciendis nulla. Amet molestiae rerum omnis impedit labore non esse quia. Labore soluta iste voluptas eaque rerum facilis velit et.",
+                        "duration": "4 years",
+                        "join_date": "1991-09-30",
+                        "end_date": "2006-11-05",
+                        "company_name": "Wuckert, Borer and Morissette",
+                        "company_address": "43513 Corwin Manors Suite 163\nGorczanychester, AK 96620-4765",
+                        "created_at": "2023-02-13T20:33:43.000000Z",
+                        "updated_at": "2023-02-13T20:33:43.000000Z"
+                    }
+                ],
+                "lead_preferred_countries": [],
+                "lead_custom_field": []
+            },
+            {
+                "followup_date": null,
+                "id": 1453,
+                "lead_status_id": 1,
+                "source_id": 5,
+                "country_id": 51,
+                "name": "Domenica Mosciski",
+                "description": "Quibusdam nostrum ipsa distinctio voluptas. Quibusdam sed amet dolorem qui est assumenda id qui. Quis est maiores aut tempora ut maiores. Maxime et quae omnis perferendis.",
+                "email": "lee66@mosciski.com",
+                "phone": "+1 (309) 270-1897",
+                "position": "Psychiatric Technician",
+                "address": "3685 Marquardt Village Apt. 589\nWest Bethelshire, RI 87933",
+                "city": "Lefflerville",
+                "state": "New Hampshire",
+                "contacted_date": "1987-10-13",
+                "educations": [],
+                "created_by": 10,
+                "updated_by": 1,
+                "created_at": "2023-02-13T20:33:10.000000Z",
+                "updated_at": "2023-02-13T20:33:10.000000Z",
+                "deleted_at": null,
+                "created_by_name": "Geoffrey Friesen",
+                "updated_by_name": "Admin",
+                "lead_assignees": [
+                    {
+                        "id": 1913,
+                        "lead_id": 1453,
+                        "user_id": 11,
+                        "name": "Staff User",
+                        "deleted_at": null,
+                        "email": "staff@example.com",
+                        "phone": "+880164445984",
+                        "staff_crm_id": "41621",
+                        "image": "uploads/staff/profile/VsW8Ot1676321249Jv6Hman.png"
+                    },
+                    {
+                        "id": 1914,
+                        "lead_id": 1453,
+                        "user_id": 12,
+                        "name": "Tushar Khan",
+                        "deleted_at": null,
+                        "email": "tushar@staff.com",
+                        "phone": "1234567890",
+                        "staff_crm_id": null,
+                        "image": "uploads/staff/profile/zvxeg31676548554ITOaman.png"
+                    }
+                ],
+                "lead_notes": [],
+                "lead_tags": [],
+                "lead_courses": [],
+                "lead_status": {
+                    "id": 1,
+                    "name": "Customer",
+                    "color": "#008059",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-16T13:13:08.000000Z",
+                    "is_final": 1
+                },
+                "country": {
+                    "id": 51,
+                    "name": "Congo, The Democratic Republic of the",
+                    "code": "CD",
+                    "short_name": "CD",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-13T20:14:41.000000Z"
+                },
+                "source": {
+                    "id": 5,
+                    "name": "Event",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-15T20:32:17.000000Z"
+                },
+                "lead_s_s_c": null,
+                "lead_h_s_c": null,
+                "lead_o_level": null,
+                "lead_a_level": null,
+                "lead_bachelor": null,
+                "lead_master": null,
+                "lead_jobs": [],
+                "lead_preferred_countries": [
+                    {
+                        "lead_id": 1453,
+                        "country_id": 30,
+                        "name": "Bouvet Island",
+                        "code": "BV",
+                        "short_name": "BV"
+                    }
+                ],
+                "lead_custom_field": []
+            },
+            {
+                "followup_date": null,
+                "id": 1452,
+                "lead_status_id": 4,
+                "source_id": 1,
+                "country_id": 218,
+                "name": "Helena Dickens",
+                "description": "Sint fugit quo ex ipsam non beatae. Alias asperiores id placeat ipsum fugiat nesciunt quia. Quia et mollitia possimus in quaerat labore sit.",
+                "email": "ceichmann@yahoo.com",
+                "phone": "+1-619-820-6450",
+                "position": "Clergy",
+                "address": "82004 Lester Garden Apt. 271\nVonstad, CT 21519",
+                "city": "Octaviachester",
+                "state": "New Jersey",
+                "contacted_date": "1989-04-01",
+                "educations": [],
+                "created_by": 10,
+                "updated_by": 1,
+                "created_at": "2023-02-13T20:33:10.000000Z",
+                "updated_at": "2023-02-13T20:33:10.000000Z",
+                "deleted_at": null,
+                "created_by_name": "Geoffrey Friesen",
+                "updated_by_name": "Admin",
+                "lead_assignees": [
+                    {
+                        "id": 1915,
+                        "lead_id": 1452,
+                        "user_id": 11,
+                        "name": "Staff User",
+                        "deleted_at": null,
+                        "email": "staff@example.com",
+                        "phone": "+880164445984",
+                        "staff_crm_id": "41621",
+                        "image": "uploads/staff/profile/VsW8Ot1676321249Jv6Hman.png"
+                    },
+                    {
+                        "id": 1916,
+                        "lead_id": 1452,
+                        "user_id": 12,
+                        "name": "Tushar Khan",
+                        "deleted_at": null,
+                        "email": "tushar@staff.com",
+                        "phone": "1234567890",
+                        "staff_crm_id": null,
+                        "image": "uploads/staff/profile/zvxeg31676548554ITOaman.png"
+                    }
+                ],
+                "lead_notes": [],
+                "lead_tags": [],
+                "lead_courses": [],
+                "lead_status": {
+                    "id": 4,
+                    "name": "Potential",
+                    "color": "#c2f410",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-16T04:30:23.000000Z",
+                    "is_final": 0
+                },
+                "country": {
+                    "id": 218,
+                    "name": "Tokelau",
+                    "code": "TK",
+                    "short_name": "TK",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-13T20:14:41.000000Z"
+                },
+                "source": {
+                    "id": 1,
+                    "name": "Facebook",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-15T20:32:09.000000Z"
+                },
+                "lead_s_s_c": null,
+                "lead_h_s_c": null,
+                "lead_o_level": null,
+                "lead_a_level": null,
+                "lead_bachelor": null,
+                "lead_master": null,
+                "lead_jobs": [],
+                "lead_preferred_countries": [],
+                "lead_custom_field": []
+            },
+            {
+                "followup_date": null,
+                "id": 1449,
+                "lead_status_id": 2,
+                "source_id": 4,
+                "country_id": 118,
+                "name": "Alexandra Kuphal",
+                "description": "Hic impedit sit a facere dolorem neque animi. Adipisci sit repellendus vitae odio sunt. Dicta quaerat exercitationem hic est.",
+                "email": "moberbrunner@yahoo.com",
+                "phone": "680-490-6263",
+                "position": "Precision Aircraft Systems Assemblers",
+                "address": "8267 Russell Junction Suite 901\nBaileyhaven, RI 75414",
+                "city": "Americaville",
+                "state": "Vermont",
+                "contacted_date": "2006-12-13",
+                "educations": [],
+                "created_by": 2,
+                "updated_by": 7,
+                "created_at": "2023-02-13T20:33:10.000000Z",
+                "updated_at": "2023-02-13T20:33:10.000000Z",
+                "deleted_at": null,
+                "created_by_name": null,
+                "updated_by_name": null,
+                "lead_assignees": [
+                    {
+                        "id": 1917,
+                        "lead_id": 1449,
+                        "user_id": 11,
+                        "name": "Staff User",
+                        "deleted_at": null,
+                        "email": "staff@example.com",
+                        "phone": "+880164445984",
+                        "staff_crm_id": "41621",
+                        "image": "uploads/staff/profile/VsW8Ot1676321249Jv6Hman.png"
+                    },
+                    {
+                        "id": 1918,
+                        "lead_id": 1449,
+                        "user_id": 12,
+                        "name": "Tushar Khan",
+                        "deleted_at": null,
+                        "email": "tushar@staff.com",
+                        "phone": "1234567890",
+                        "staff_crm_id": null,
+                        "image": "uploads/staff/profile/zvxeg31676548554ITOaman.png"
+                    }
+                ],
+                "lead_notes": [],
+                "lead_tags": [],
+                "lead_courses": [],
+                "lead_status": {
+                    "id": 2,
+                    "name": "New",
+                    "color": "#00d640",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-16T04:29:55.000000Z",
+                    "is_final": 0
+                },
+                "country": {
+                    "id": 118,
+                    "name": "Kuwait",
+                    "code": "KW",
+                    "short_name": "KW",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-13T20:14:41.000000Z"
+                },
+                "source": {
+                    "id": 4,
+                    "name": "Twitter",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-15T20:32:00.000000Z"
+                },
+                "lead_s_s_c": null,
+                "lead_h_s_c": null,
+                "lead_o_level": null,
+                "lead_a_level": null,
+                "lead_bachelor": null,
+                "lead_master": null,
+                "lead_jobs": [],
+                "lead_preferred_countries": [],
+                "lead_custom_field": []
+            },
+            {
+                "followup_date": null,
+                "id": 1448,
+                "lead_status_id": 5,
+                "source_id": 5,
+                "country_id": 95,
+                "name": "Newell Bergstrom DDS",
+                "description": "Deleniti distinctio iste inventore totam minima. Blanditiis odit ut explicabo unde sint. Consequatur est eius cumque quia doloribus aperiam nulla.",
+                "email": "broderick15@gmail.com",
+                "phone": "+1-320-746-3898",
+                "position": "Public Relations Manager",
+                "address": "91415 Ashtyn Inlet Suite 834\nWest Braulioport, MT 16240",
+                "city": "South Sterling",
+                "state": "Wyoming",
+                "contacted_date": "1972-01-05",
+                "educations": [],
+                "created_by": 2,
+                "updated_by": 7,
+                "created_at": "2023-02-13T20:33:10.000000Z",
+                "updated_at": "2023-02-13T20:33:10.000000Z",
+                "deleted_at": null,
+                "created_by_name": null,
+                "updated_by_name": null,
+                "lead_assignees": [
+                    {
+                        "id": 898,
+                        "lead_id": 1448,
+                        "user_id": 1,
+                        "name": "Admin",
+                        "deleted_at": null,
+                        "email": "admin@example.com",
+                        "phone": "+8801644459849",
+                        "staff_crm_id": "64587",
+                        "image": "uploads/staff/profile/lHcrAs1676321155D5rxman2.png"
+                    }
+                ],
+                "lead_notes": [],
+                "lead_tags": [],
+                "lead_courses": [],
+                "lead_status": {
+                    "id": 5,
+                    "name": "Office Visited",
+                    "color": "#01aef9",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-16T04:30:48.000000Z",
+                    "is_final": 0
+                },
+                "country": {
+                    "id": 95,
+                    "name": "Heard Island and Mcdonald Islands",
+                    "code": "HM",
+                    "short_name": "HM",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-13T20:14:41.000000Z"
+                },
+                "source": {
+                    "id": 5,
+                    "name": "Event",
+                    "created_at": "2023-02-13T20:14:41.000000Z",
+                    "updated_at": "2023-02-15T20:32:17.000000Z"
+                },
+                "lead_s_s_c": null,
+                "lead_h_s_c": null,
+                "lead_o_level": null,
+                "lead_a_level": null,
+                "lead_bachelor": null,
+                "lead_master": null,
+                "lead_jobs": [
+                    {
+                        "id": 616,
+                        "lead_id": 1448,
+                        "title": "Industrial Equipment Maintenance",
+                        "description": "In ipsam optio molestias consequatur. Ea omnis similique id ut eius. Maiores facilis voluptatem nam maiores.",
+                        "duration": "2 years",
+                        "join_date": "2001-05-29",
+                        "end_date": "1991-04-01",
+                        "company_name": "Auer, Kemmer and Harber",
+                        "company_address": "412 Anika Gardens\nCierrahaven, SD 71851",
+                        "created_at": "2023-02-13T20:33:43.000000Z",
+                        "updated_at": "2023-02-13T20:33:43.000000Z"
+                    }
+                ],
+                "lead_preferred_countries": [],
+                "lead_custom_field": []
+            }
+        ],
+        "first_page_url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=1",
+        "from": 1,
+        "last_page": 101,
+        "last_page_url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=101",
+        "links": [
+            {
+                "url": null,
+                "label": "&laquo; Previous",
+                "active": false
+            },
+            {
+                "url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=1",
+                "label": "1",
+                "active": true
+            },
+            {
+                "url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=2",
+                "label": "2",
+                "active": false
+            },
+            {
+                "url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=3",
+                "label": "3",
+                "active": false
+            },
+            {
+                "url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=4",
+                "label": "4",
+                "active": false
+            },
+            {
+                "url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=5",
+                "label": "5",
+                "active": false
+            },
+            {
+                "url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=6",
+                "label": "6",
+                "active": false
+            },
+            {
+                "url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=7",
+                "label": "7",
+                "active": false
+            },
+            {
+                "url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=8",
+                "label": "8",
+                "active": false
+            },
+            {
+                "url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=9",
+                "label": "9",
+                "active": false
+            },
+            {
+                "url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=10",
+                "label": "10",
+                "active": false
+            },
+            {
+                "url": null,
+                "label": "...",
+                "active": false
+            },
+            {
+                "url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=100",
+                "label": "100",
+                "active": false
+            },
+            {
+                "url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=101",
+                "label": "101",
+                "active": false
+            },
+            {
+                "url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=2",
+                "label": "Next &raquo;",
+                "active": false
+            }
+        ],
+        "next_page_url": "http://crm.softvalley.sveducrm.com/api/admin/lead/list?page=2",
+        "path": "http://crm.softvalley.sveducrm.com/api/admin/lead/list",
+        "per_page": 10,
+        "prev_page_url": null,
+        "to": 10,
+        "total": 1001
+    },
+    "errors": []
+}
