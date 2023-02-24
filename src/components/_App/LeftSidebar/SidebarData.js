@@ -8,22 +8,23 @@ import PeopleAltIcon from '@mui/icons-material/PeopleAlt';
 import PersonSearchIcon from '@mui/icons-material/PersonSearch';
 import ShowChartIcon from '@mui/icons-material/ShowChart';
 export const SidebarData = [
-  // {
-  //   title: "Dashboard",
-  //   path: "/",
-  //   icon: <DashboardIcon />,
-
-  // },
+ 
   {
-    title: "Leads",
+    title: "Dashboard",
     path: "/",
-    icon: <PersonSearchIcon />,
+    icon: <DashboardIcon />,
 
   },
   {
+    title: "Leads",
+    path: "/pages/leads/",
+    icon: <PeopleAltIcon />
+  },
+  {
     title: "Customer",
-    path: "/pages/invoice/",
+    path: "/hh",
     icon: <PeopleAltIcon />,
+    className:"sidebarLinkActive"
   },
   {
     title: "Sales",

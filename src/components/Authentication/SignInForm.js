@@ -43,7 +43,7 @@ const SignInForm = () => {
             console.log({loggedInResponse})
             if (loggedInResponse.success) {
               localStorage.setItem('token',loggedInResponse.data.token)
-              router.push("/");
+              router.push("/dashboard");
             } else {
               setIsLoading(false);
               setUserMsg("Something went wrong logging in");

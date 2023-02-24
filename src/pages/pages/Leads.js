@@ -1,5 +1,5 @@
 import React,{ useEffect } from 'react'; 
-import InvoiceLists from '../../components/Pages/Invoice/InvoiceLists';
+import InvoiceLists from '../../components/dashboard';
 
 export default function Invoice() {
  

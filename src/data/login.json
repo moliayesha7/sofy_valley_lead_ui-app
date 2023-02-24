@@ -1,5 +1,4 @@
 {
-    "posts": [{
     "code": 200,
     "success": true,
     "message": "Login successfully.",
@@ -1572,5 +1571,4 @@
         ]
     },
     "errors": []
-}]
 }

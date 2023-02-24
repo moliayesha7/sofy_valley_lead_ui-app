@@ -24,10 +24,11 @@ import Tooltip from "@mui/material/Tooltip";
 import DeleteIcon from "@mui/icons-material/Delete";
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import DriveFileRenameOutlineIcon from "@mui/icons-material/DriveFileRenameOutline";
-import MultipleSelectChip from '../../../components/Forms/AdvancedElements/MultipleSelectChip';
+import MultipleSelectChip from "../Forms/AdvancedElements/MultipleSelectChip";
 import Button from '@mui/material/Button';
-import BasicDatePicker from "../../../components/Forms/AdvancedElements/BasicDatePicker";
+import BasicDatePicker from "../../components/Forms/AdvancedElements/BasicDatePicker";
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
 function InvoiceList(props) {
@@ -102,205 +103,205 @@ InvoiceList.propTypes = {
 };
 
 function createData(
-  orderID,
-  productName,
-  clientName,
-  clientImg,
+  name,
+  phone,
+  followup_date,
+  note,
+  lead_assignees_name,
   email,
-  issuedDate,
-  total,
-  balance,
-  badgeClass,
+  lead_preferred_countries_name,
+  lead_status_color,
+  source_name
 ) {
   return {
-    orderID,
-    productName,
-    clientName,
-    clientImg,
+    name,
+    phone,
+    followup_date,
+    note,
+    lead_assignees_name,
     email,
-    issuedDate,
-    total,
-    balance,
-    badgeClass,
+    lead_preferred_countries_name,
+    lead_status_color,
+    source_name
   };
 }
 
 const rows = [
   createData(
-    "#14250",
     "Laptop Macos Pro",
-    "Colin Firth",
-    "/images/user1.png",
-    "colinfirth@gmail.com",
+    "14250",  
     "10 Jan 2023",
-    "$845",
-    "Paid",
-    "successBadge",
-  ),
-  createData(
-    "#14251",
-    "Smart Camera XD6",
-    "Wade Dave",
-    "/images/user2.png",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
     "wadedave@gmail.com",
-    "11 Jan 2023",
-    "$189.50",
-    "Not Paid",
-    "dangerBadge",
+    "Not Interest",
+    "Facebook",
   ),
   createData(
-    "#14252",
-    "Pixi 8 Wireless Airphone",
-    "Seth Riley",
-    "/images/user3.png",
-    "sethriley@gmail.com",
-    "12 Jan 2023",
-    "$250.50",
-    "Paid",
-    "successBadge",
-  ),
-  createData(
-    "#14253",
-    "Jebble Smart Watch",
-    "Gilbert Dan",
-    "/images/user4.png",
-    "gilbertdan@gmail.com",
-    "13 Jan 2023",
-    "$289.50",
-    "Paid",
-    "successBadge",
-  ),
-  createData(
-    "#14254",
-    "Admas Airpod x-Zon",
-    "Joshua Glen",
-    "/images/user5.png",
-    "joshuaGlen@gmail.com",
-    "14 Jan 2023",
-    "$289.50",
-    "Not Paid",
-    "dangerBadge",
-  ),
-  createData(
-    "#14255",
-    "Smart Satch F8 Pro",
-    "Lewis Milton",
-    "/images/user6.png",
-    "lewisMilton@gmail.com",
-    "15 Jan 2023",
-    "$289.50",
-    "Paid",
-    "successBadge",
-  ),
-  createData(
-    "#14256",
-    "Nord Fold ZL",
-    "Liam Ethan",
-    "/images/user7.png",
-    "liamEthan@gmail.com",
-    "16 Jan 2023",
-    "$289.50",
-    "Paid",
-    "successBadge",
-  ),
-  createData(
-    "#14257",
-    "Wall Clock Cimbina",
-    "Ramon Miles",
-    "/images/user8.png",
-    "ramonMiles@gmail.com",
-    "17 Jan 2023",
-    "$289.50",
-    "Paid",
-    "successBadge",
-  ),
-  createData(
-    "#14258",
-    "Galaxo T6 Munsun",
-    "Brian Roberto",
-    "/images/user9.png",
-    "ramonMiles@gmail.com",
-    "18 Jan 2023",
-    "$289.50",
-    "Paid",
-    "successBadge",
-  ),
-  createData(
-    "#14259",
     "Laptop Macos Pro",
-    "Colin Firth",
-    "/images/user10.png",
-    "colinFirth@gmail.com",
-    "19 Jan 2023",
-    "$289.50",
-    "Paid",
-    "successBadge",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
   ),
   createData(
-    "#14260",
-    "Smart Camera XD6",
-    "Wade Dave",
-    "/images/user11.png",
-    "wadeDave@gmail.com",
-    "20 Jan 2023",
-    "$189.50",
-    "Paid",
-    "successBadge",
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
   ),
   createData(
-    "#14261",
-    "Pixi 8 Wireless Airphone",
-    "Seth Riley",
-    "/images/user12.png",
-    "wadeDave@gmail.com",
-    "21 Jan 2023",
-    "$250.50",
-    "Paid",
-    "successBadge",
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
   ),
   createData(
-    "#14262",
-    "Jebble Smart Watch",
-    "Gilbert Dan",
-    "/images/user13.png",
-    "wadeDave@gmail.com",
-    "22 Jan 2023",
-    "$289.50",
-    "Paid",
-    "successBadge",
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
   ),
   createData(
-    "#14263",
-    "Admas Airpod x-Zon",
-    "Joshua Glen",
-    "/images/user14.png",
-    "joshuaGlen@gmail.com",
-    "23 Jan 2023",
-    "$289.50",
-    "Paid",
-    "successBadge",
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
   ),
   createData(
-    "#14264",
-    "Smart Satch F8 Pro",
-    "Lewis Milton",
-    "/images/user15.png",
-    "lewisMilton@gmail.com",
-    "24 Jan 2023",
-    "$289.50",
-    "Paid",
-    "successBadge",
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
   ),
   createData(
-    "#14265",
-    "Nord Fold ZL",
-    "Liam Ethan",
-    "/images/product7.png",
-    "liamEthan@gmail.com",
-    "25 Jan 2023",
-    "$289.50",
-    "Paid",
-    "successBadge",
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
+  ),
+  createData(
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
+  ),
+  createData(
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
+  ),
+  createData(
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
+  ),
+  createData(
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
+  ),
+  createData(
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
+  ),
+  createData(
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
+  ),
+  createData(
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
+  ),
+  createData(
+    "Laptop Macos Pro",
+    "14250",  
+    "10 Jan 2023",
+    "Work",
+    "Jon",
+    "10 Jan 2023",
+    "wadedave@gmail.com",
+    "Not Interest",
+    "Facebook",
   ),
 ].sort((a, b) => (a.orderID < b.orderID ? -1 : 1));
 
@@ -312,7 +313,7 @@ export default function InvoiceLists() {
   const [assignee, setAssignee] =  React.useState([]);
   const [selectedAssignee, setSelectedAssignee] =  React.useState([]);
 
-
+  
   // Avoid a layout jump when reaching the last page with empty rows.
   const emptyRows =
     page > 0 ? Math.max(0, (1 + page) * rowsPerPage - rows.length) : 0;
@@ -393,9 +394,8 @@ export default function InvoiceLists() {
                     padding: "10px",
                   }}
                 >
-                  #
+                      <Checkbox {...label} size="small" />
                 </TableCell>
-
                 <TableCell
                   sx={{
                     borderBottom: "1px solid #F7FAFF",
@@ -403,9 +403,8 @@ export default function InvoiceLists() {
                     padding: "10px",
                   }}
                 >
-                  Product Name
+                  Lead Name
                 </TableCell>
-
                 <TableCell
                   sx={{
                     borderBottom: "1px solid #F7FAFF",
@@ -413,9 +412,8 @@ export default function InvoiceLists() {
                     padding: "10px",
                   }}
                 >
-                  Client Name
+                  Phone
                 </TableCell>
- 
                 <TableCell
                   align="center"
                   sx={{
@@ -424,9 +422,8 @@ export default function InvoiceLists() {
                     padding: "10px",
                   }}
                 >
-                  Issued Date
+                 Followup Date
                 </TableCell>
-
                 <TableCell
                   align="center"
                   sx={{
@@ -435,9 +432,8 @@ export default function InvoiceLists() {
                     padding: "10px",
                   }}
                 >
-                  Total
+                  Last Note
                 </TableCell>
-
                 <TableCell
                   align="center"
                   sx={{
@@ -446,9 +442,48 @@ export default function InvoiceLists() {
                     padding: "10px",
                   }}
                 >
-                  Balance
+                  Assigned
                 </TableCell>
-
+                <TableCell
+                  align="center"
+                  sx={{
+                    borderBottom: "1px solid #F7FAFF",
+                    fontSize: "13px",
+                    padding: "10px",
+                  }}
+                >
+                  Email
+                </TableCell>
+                <TableCell
+                  align="center"
+                  sx={{
+                    borderBottom: "1px solid #F7FAFF",
+                    fontSize: "13px",
+                    padding: "10px",
+                  }}
+                >
+                  Preferred Coumtries
+                </TableCell>
+                <TableCell
+                  align="center"
+                  sx={{
+                    borderBottom: "1px solid #F7FAFF",
+                    fontSize: "13px",
+                    padding: "10px",
+                  }}
+                >
+                  Status
+                </TableCell>
+                <TableCell
+                  align="center"
+                  sx={{
+                    borderBottom: "1px solid #F7FAFF",
+                    fontSize: "13px",
+                    padding: "10px",
+                  }}
+                >
+                  Source
+                </TableCell>
                 <TableCell
                   align="right"
                   sx={{
@@ -481,7 +516,7 @@ export default function InvoiceLists() {
                   >
                     <Checkbox {...label} size="small" />
 
-                    {row.orderID}
+                 
                   </TableCell>
 
                   <TableCell
@@ -491,7 +526,7 @@ export default function InvoiceLists() {
                       padding: "8px 10px",
                     }}
                   >
-                    {row.productName}
+                    {row.name}
                   </TableCell>
 
                   <TableCell
@@ -500,36 +535,7 @@ export default function InvoiceLists() {
                       padding: "8px 10px",
                     }}
                   >
-                    <Box
-                      sx={{
-                        display: "flex",
-                        alignitems: "center",
-                      }}
-                    >
-                      <img
-                        src={row.clientImg}
-                        alt="Product Img"
-                        style={{ width: '40x', height: '40px'}}
-                        className="borRadius100"
-                      />
-                      <Box ml={1}>
-                        <Typography
-                          sx={{
-                            fontWeight: "500",
-                            fontSize: "12px",
-                          }}
-                        >
-                          {row.clientName}
-                        </Typography>
-                        <Typography
-                          sx={{
-                            fontSize: "12px",
-                          }}
-                        >
-                          {row.email}
-                        </Typography>
-                      </Box>
-                    </Box>
+                     {row.phone}
                   </TableCell>
 
                   <TableCell
@@ -540,7 +546,7 @@ export default function InvoiceLists() {
                       padding: "8px 10px",
                     }}
                   >
-                    {row.issuedDate}
+                    {row.followup_date}
                   </TableCell>
 
                   <TableCell
@@ -551,7 +557,7 @@ export default function InvoiceLists() {
                       padding: "8px 10px",
                     }}
                   >
-                    {row.total}
+                    {row.note}
                   </TableCell>
  
                   <TableCell
@@ -564,10 +570,53 @@ export default function InvoiceLists() {
                     }}
                   >
                     <span className={row.badgeClass}>
-                      {row.balance}
+                      {row.lead_assignees_name}
                     </span>
                   </TableCell>
+                  <TableCell
+                    sx={{
+                      borderBottom: "1px solid #F7FAFF",
+                      padding: "8px 10px",
+                    }}
+                  >
+                     {row.email}
+                  </TableCell>
 
+                  <TableCell
+                    align="center"
+                    sx={{
+                      borderBottom: "1px solid #F7FAFF",
+                      fontSize: "12px",
+                      padding: "8px 10px",
+                    }}
+                  >
+                    {row.lead_preferred_countries_name}
+                  </TableCell>
+
+                  <TableCell
+                    align="center"
+                    sx={{
+                      borderBottom: "1px solid #F7FAFF",
+                      fontSize: "12px",
+                      padding: "8px 10px",
+                    }}
+                  >
+                    {row.lead_status_color}
+                  </TableCell>
+ 
+                  <TableCell
+                    align="center"
+                    sx={{
+                      fontWeight: 500,
+                      borderBottom: "1px solid #F7FAFF",
+                      fontSize: "10px",
+                      padding: "8px 10px",
+                    }}
+                  >
+                    <span className={row.badgeClass}>
+                      {row.source_name}
+                    </span>
+                  </TableCell>
                   <TableCell
                     align="right"
                     sx={{

@@ -15,15 +15,8 @@ const Footer = () => {
         <Box>
           <Typography>
             Copyright  {' '}
-            <strong>Lead App</strong> is Proudly Owned by {' '}
-            <Link
-              href="https://envytheme.com/"
-              target="_blank" 
-              underline="none"
-              rel="noreferrer"
-            >
-              EnvyTheme
-            </Link>
+            <strong>Lead App</strong> 
+            
           </Typography>
         </Box>
       </Stack>

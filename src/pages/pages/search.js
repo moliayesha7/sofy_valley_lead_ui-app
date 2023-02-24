@@ -1,5 +1,5 @@
 import React from 'react'; 
-import SearchContent from '../../components/Pages/Search/SearchContent';
+import SearchContent from '../../components/Dashboard/Search/SearchContent';
 import Link from 'next/link';
 import styles from '../../styles/PageTitle.module.css';
 

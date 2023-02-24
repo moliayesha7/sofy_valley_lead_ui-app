@@ -15,8 +15,8 @@ const SubMenu = ({ item }) => {
   const showSubnav = () => setSubnav(!subnav);
   const [currentPath, setCurrentPath] = useState("");
   const router = useRouter();
-  // console.log(router.asPath)
 
+  
   useEffect(() => {
     setCurrentPath(router.asPath);
   }, [router]);
